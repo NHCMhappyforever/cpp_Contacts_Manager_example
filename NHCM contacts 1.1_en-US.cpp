@@ -287,7 +287,7 @@ Version 1.1
             if ((string)contacts1.contacts[1].name == "")
             {
                 system("cls");
-                cout << "No contacts now人\n" << endl;
+                cout << "No contacts now\n" << endl;
                 system("pause");
                 goto START;
             }
