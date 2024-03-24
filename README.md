@@ -21,4 +21,3 @@ Go into the directory:
 `cd contacts_manager`  
 Now compile:  
 `sudo g++ NHCM_contacts_linux_amd64.cpp -o /usr/bin/contacts`  
-### doge
