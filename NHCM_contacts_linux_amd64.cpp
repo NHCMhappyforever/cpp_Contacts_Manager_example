@@ -1,4 +1,4 @@
-﻿// NHCM contacts 1.2
+﻿// NHCM contacts 1.2.1
 // © Copyright 2024 NHCM All Rights Reserved.
 #include<iostream>
 #include<string>
@@ -151,6 +151,7 @@ bool verify()
 }
 int main()
 {
+    system("sudo cd /usr/bin");
     ifstream data;
     data.open("contacts.dat", ios::binary | ios::in);
     if (data.is_open() == false)
@@ -169,7 +170,7 @@ int main()
 | . ` ||  _  | |    | |\/| |  / __/ _ \| '_ \| __/ _` |/ __| __/ __|
 | |\  || | | | \__/\| |  | | | (_| (_) | | | | || (_| | (__| |_\__ \
 \_| \_/\_| |_/\____/\_|  |_/  \___\___/|_| |_|\__\__,_|\___|\__|___/
-Version 1.2
+Version 1.2.1
                                                                     
                                                                     )" << "\nWelcome for using~\n" << endl;
     pauset();
@@ -518,7 +519,7 @@ Version 1.2
 | . ` ||  _  | |    | |\/| |  / __/ _ \| '_ \| __/ _` |/ __| __/ __|
 | |\  || | | | \__/\| |  | | | (_| (_) | | | | || (_| | (__| |_\__ \
 \_| \_/\_| |_/\____/\_|  |_/  \___\___/|_| |_|\__\__,_|\___|\__|___/
-Version 1.2
+Version 1.2.1
                                                                     
                                                                     )" << endl;
     pauset();
